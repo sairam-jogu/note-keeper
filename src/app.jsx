@@ -32,6 +32,10 @@ header h1 {
   font-weight: 200;
 }
 
+.create{
+  min-height: 100vh;
+}
+
 footer {
   /* position: absolute;
   text-align: center;

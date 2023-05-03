@@ -33,11 +33,17 @@ header h1 {
 }
 
 footer {
-  position: absolute;
+  /* position: absolute;
   text-align: center;
   bottom: 0;
   width: 90%;
-  height: 2.5rem;
+  height: 2.5rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  padding-bottom: 20px;
+  
 }
 
 footer p {
@@ -92,10 +98,6 @@ form.create-note {
   .note {
     width: 100%;
     margin: 30px 0px 20px;
-  }
-  footer {
-    opacity: 0;
-    
   }
 }
 

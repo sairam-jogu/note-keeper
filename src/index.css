@@ -32,10 +32,6 @@ header h1 {
   font-weight: 200;
 }
 
-.create{
-  min-height: 100vh;
-}
-
 footer {
   /* position: absolute;
   text-align: center;
@@ -95,7 +91,11 @@ form.create-note {
   box-shadow: 0 1px 5px rgb(138, 137, 137);
 }
 
-@media (max-width: 450px) {
+.create{
+  min-height: 100vh;
+}
+
+@media (max-width: 370px) {
   form.create-note {
     width: 100%;
   }
@@ -103,6 +103,13 @@ form.create-note {
     width: 100%;
     margin: 30px 0px 20px;
   }
+  /* footer {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+    
+  } */
 }
 
 form.create-note input,

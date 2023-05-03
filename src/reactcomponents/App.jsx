@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <Header />
-      <div>
+      <div className = "create">
         <CreateArea onAddNote={addNote}></CreateArea>
         {notes.map((toDoTitle, index) => (
           <Note
